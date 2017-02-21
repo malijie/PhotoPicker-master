@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+  <Button
+      android:layout_marginTop="10dip"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/pick_photo"
+      android:id="@+id/button"
+      />
+
+  <Button
+      android:layout_marginTop="10dip"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/pick_photo_without_camera"
+      android:id="@+id/button_no_camera"
+      />
+
+  <Button
+      android:layout_marginTop="10dip"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/pick_one_photo"
+      android:id="@+id/button_one_photo"
+      />
+
+  <Button
+      android:layout_marginTop="10dip"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/pick_photo_gif"
+      android:id="@+id/button_photo_gif"
+      />
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+
+</LinearLayout>
